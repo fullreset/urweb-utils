@@ -1,7 +1,7 @@
 # Ur/Web Utils
 Small but useful Ur things ... 
 # Quick Start
-Add `library FontAwesome` and/or `library SVG` to your `urp` file(s) to use these toys in your Ur/Web app. 
+Adding `library UrUtils` to your `urp` file(s) will include all the utilities contained here; or you can add them selectively -- each utility will have it's own `urp` file.
 # SVG Usage
 ```
 val html5logo : xbody = <xml>
