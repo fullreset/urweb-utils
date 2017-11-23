@@ -16,4 +16,6 @@ val html5logo : xbody = <xml>
 # FontAwesome Usage
 It's just a set of CSS classes, so nothing magical here.
 
-`<i class={Basis.classes fa fa_code} />`
+```
+<i class={Basis.classes fa fa_code} />
+```
