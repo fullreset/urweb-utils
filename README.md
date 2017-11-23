@@ -1,5 +1,5 @@
 # Ur/Web Utils
-Small but useful Ur things.
+A few small but useful Ur things.
 # Quick Start
 ```
 git clone https://github.com/fullreset/urweb-utils.git
