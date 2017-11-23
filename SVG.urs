@@ -15,12 +15,7 @@ Example:
 
 *)
 
-(* SVG | <svg/> *)
-
-con svg_attr = [ Xmlns = string, Width = string, Height = string, Opacity = string, Preserveaspectratio = string, Viewbox = string ]
-val svg : bodyTag svg_attr
-
-(* SVG Elements | <g/> <rect/> <polyline/> <polygon/> <path/> *)
+(* SVG Elements | <svg/> <g/> <rect/> <polyline/> <polygon/> <path/> *)
 
 con svg_attr_stroke = [ Stroke = string, Stroke_width = string ]
 con svg_attr_fill = [ Fill = string, Fill_opacity = string ]
@@ -28,12 +23,14 @@ con svg_attr_presentation = svg_attr_stroke ++ svg_attr_fill ++ [ Opacity = stri
 con svg_attr_points = [ Points = string ]
 con svg_text_attr = [ X = string, Y = string,Font_family = string, Font_size = string, Letter_spacing = string, Transform = string, Text_anchor = string ]
 
+con svg_tag = [ Xmlns = string, Width = string, Height = string, Opacity = string, Preserveaspectratio = string, Viewbox = string ]
 con svg_tag_rect = [ X = string, Y = string, Width = string, Height = string] ++ svg_attr_presentation
 con svg_tag_circle = [ Cx = string, Cy = string, R = string ]
 con svg_tag_path = [ D = string ] ++ svg_attr_presentation
 con svg_tag_polyline = svg_attr_points ++ svg_attr_presentation
 con svg_tag_text = svg_text_attr ++ svg_attr_presentation
 
+val svg : bodyTag svg_tag
 val g : bodyTag svg_attr_presentation
 val rect : bodyTag svg_tag_rect
 val circle : bodyTag svg_tag_circle
