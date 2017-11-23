@@ -1,6 +1,9 @@
 # Ur/Web Utils
 Small but useful Ur things.
 # Quick Start
+```
+git clone https://github.com/fullreset/urweb-utils.git
+```
 Adding `library UrUtils` to your `urp` file(s) will include all the utilities contained here; or you can add them selectively -- each utility will have it's own `urp` file.
 # SVG Usage
 ```
