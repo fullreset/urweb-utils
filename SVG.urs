@@ -5,7 +5,7 @@ A very minimal subset of SVG -- just enough to draw graphs, &c.
 Example:
 
   val html5logo : xbody = <xml>
-      <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewbox="0 0 512 512" preserveaspectratio="XMaxYMid meet"  class={img_responsive}>
+      <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewbox="0 0 512 512" preserveaspectratio="XMaxYMid meet">
         <path fill="#E34F26" d="M71,460 L30,0 481,0 440,460 255,512"/>
         <path fill="#EF652A" d="M256,472 L405,431 440,37 256,37"/>
         <path fill="#EBEBEB" d="M256,208 L181,208 176,150 256,150 256,94 255,94 114,94 115,109 129,265 256,265zM256,355 L255,355 192,338 188,293 158,293 132,293 139,382 255,414 256,414z"/>
