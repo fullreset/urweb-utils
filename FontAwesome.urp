@@ -1,0 +1,13 @@
+#--------------------------------                                           
+# font-awesome rewites & files
+#--------------------------------
+rewrite style FontAwesome/* [-]
+file /fonts/fontawesome-webfont.woff fonts/fontawesome-webfont.woff
+file /fonts/fontawesome-webfont.woff2 fonts/fontawesome-webfont.woff2 application/x-font-woff
+file /fonts/fontawesome-webfont.ttf fonts/fontawesome-webfont.ttf
+file /fonts/fontawesome-webfont.svg fonts/fontawesome-webfont.svg
+file /fonts/FontAwesome.otf fonts/FontAwesome.otf
+file /fonts/fontawesome-webfont.eot fonts/fontawesome-webfont.eot
+file /fontawesome css/font-awesome.4.7.0.min.css text/css
+
+FontAwesome
