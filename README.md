@@ -4,6 +4,10 @@ Small but useful Ur things.
 Adding `library UrUtils` to your `urp` file(s) will include all the utilities contained here; or you can add them selectively -- each utility will have it's own `urp` file.
 # SVG Usage
 ```
+open SVG
+
+...
+
 val html5logo : xbody = <xml>
     <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewbox="0 0 512 512" preserveaspectratio="XMaxYMid meet">
       <path fill="#E34F26" d="M71,460 L30,0 481,0 440,460 255,512"/>
@@ -17,5 +21,9 @@ val html5logo : xbody = <xml>
 It's just a set of CSS classes, so nothing magical here.
 
 ```
-<i class={Basis.classes fa fa_code} />
+open FontAwesome
+
+...
+
+val icon : xbody = <xml> <i class={Basis.classes fa fa_code}/> </xml>
 ```
