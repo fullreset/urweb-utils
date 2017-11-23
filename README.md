@@ -6,7 +6,7 @@ Adding `library UrUtils` to your `urp` file(s) will include all the utilities co
 ```
 open SVG
 
-...
+(* ... *)
 
 val html5logo : xbody = <xml>
     <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewbox="0 0 512 512" preserveaspectratio="XMaxYMid meet">
@@ -23,7 +23,7 @@ It's just a set of CSS classes, so nothing magical here.
 ```
 open FontAwesome
 
-...
+(* ... *)
 
 val icon : xbody = <xml> <i class={Basis.classes fa fa_code}/> </xml>
 ```
