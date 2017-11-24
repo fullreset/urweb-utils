@@ -4,7 +4,7 @@ A few small but useful Ur things.
 ```
 git clone https://github.com/fullreset/urweb-utils.git
 ```
-Adding `library UrUtils` to your `urp` file(s) will include all the utilities contained here; or you can add them selectively -- each utility will have it's own `urp` file.
+Adding `library UrUtils` to your `urp` file(s) will include all the utilities contained here; or you can add them individually -- each utility has it's own `urp` file.
 # SVG Usage
 Minimal SVG usage in the wild: This is the html5 logo code copied directly into an `ur` file -- so this toy works to this extent at least.
 
