@@ -23,7 +23,7 @@ val html5logo : xbody = <xml>
   </xml>
 ```
 # FontAwesome Usage
-Just a set of CSS classes, so nothing too interesting here.
+Just a bunch of CSS classes, so nothing too interesting here.
 
 ```
 open FontAwesome
