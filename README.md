@@ -23,7 +23,7 @@ val html5logo : xbody = <xml>
   </xml>
 ```
 # FontAwesome Usage
-Just a bunch of CSS classes, so nothing too interesting here.
+Just a bunch of CSS classes, so nothing too interesting here. Adjust your URP as needed to include FontAwesome 4.7.0, and then:
 
 ```
 open FontAwesome
