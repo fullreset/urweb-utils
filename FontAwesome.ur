@@ -1,6 +1,6 @@
 (* fontawesome styles -- auto-generated *)
 
-(* Note: Some classes removed because of conflight w bootstrap; but they should 
+(* Note: Some classes removed because of conflict w bootstrap; but they should 
    be renamed instead to allow use with or without bootstrap. *)
 
 style fa
