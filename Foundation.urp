@@ -3,5 +3,5 @@
 #--------------------------------
 rewrite style Foundation/f6_*
 rewrite style Foundation/* [-]
-file /foundation /css/foundation.min.css test/css
-jsFile /js/foundation.min.js
+file /foundation css/foundation.min.css test/css
+jsFile js/foundation.min.js
