@@ -23,7 +23,7 @@ val html5logo : xbody = <xml>
   </xml>
 ```
 # FontAwesome Usage
-Just a bunch of CSS classes, so nothing too interesting here. Adjust your URP as needed to include FontAwesome 4.7.0, and then:
+Just a bunch of CSS classes, so nothing too interesting here. Adjust your URP as needed to include the FontAwesome 4.7.0 sources, and then:
 
 ```
 open FontAwesome
@@ -32,3 +32,22 @@ open FontAwesome
 
 val icon : xbody = <xml> <i class={Basis.classes fa fa_code}/> </xml>
 ```
+
+# Foundation Usage
+Again, just a bunch of CSS classes. Adjust the URP as needed to include the Foundation 6.4.2 sources. and then:
+
+```
+open Foundation
+
+(* ... *)
+
+val snippet : xbody = <xml> 
+     <div class={Basis.classes top_bar fluid}> 
+       <div class={top_bar_left}> (* ... *) 
+         <ul class={Basis.classes dropdown menu}>
+           <li class={menu_text}>FOUNDATION!</li>
+         </ul>
+       </div>
+     </div> 
+   </xml>
+````
