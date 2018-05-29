@@ -51,3 +51,5 @@ val snippet : xbody = <xml>
      </div> 
    </xml>
 ````
+
+As with `bootstrap3` conflicting class names are prefixed -- with `f6_` in this case. 
