@@ -1,0 +1,7 @@
+#--------------------------------                                           
+# foundation 6.4.2 rewites & files
+#--------------------------------
+rewrite style Foundation/f6_*
+rewrite style Foundation/* [-]
+file /foundation /css/foundation.min.css test/css
+jsFile /js/foundation.min.js
